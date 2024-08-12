@@ -1,0 +1,609 @@
+
+body{
+    background-color: black;
+    color: white;
+       font-family: "Inter", sans-serif;
+       font-style: normal;
+       margin: 0%;
+       padding: 0%;
+   
+     
+       
+
+   *{
+    padding: 10px;
+   }
+  
+
+}
+
+
+.header{
+    width: 85%;
+    /* padding: 20px 0px; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+   /* padding: 10px 15px; */
+}
+.header a:hover{
+    background-color: #E6533C;
+    border-radius: 10px;
+}
+.nav{
+    border: 2px solid rgba(94, 92, 92, 0.192);
+    border-radius: 40px;
+    padding: 10px 15px;
+
+
+}
+.logo{
+
+
+    display: inline;
+    font-size: 36px;
+    color: #E6533C;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+#mat{
+   padding: 0%;
+display: none;
+}
+
+
+/* start a banner */
+.banner{
+    width:95%;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+
+.banner-text{
+    /* padding: 0px 15px 0px 15px; */
+    width: 50vw;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.banner-text h1{
+    font-size: 58px;
+    padding: 0px 15px;
+}
+.sp{
+ 
+ 
+    
+    
+      font-family: "Playwrite BE VLG", cursive;
+      font-optical-sizing: auto;
+    
+      font-style: normal;
+    
+
+
+}
+
+.relative{
+    width: 120px;
+height: 60px;
+padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+  left: 150px;
+
+  line-height: 0;
+    background-color: rgba(255, 255, 255, 0.144);
+}
+.relative p{
+font-size: 10px;
+
+}
+.relativ{
+    width: 120px;
+height: 60px;
+padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    align-items: center;
+
+
+  line-height: 0;
+    background-color: rgba(255, 255, 255, 0.144);
+}
+.relativ p{
+font-size: 10px;
+
+}
+
+
+
+
+.btn{
+    margin-top: 10px;
+    padding: 15px 7vw;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid rgba(88, 87, 85, 0.541);
+
+}
+.btn-dis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-img{
+    position: relative;
+    width: 40%;
+    height: 400px;
+    padding: 0%;
+    margin: 0%;
+}
+.banner-img img{
+    width: 50%;
+    height: 550px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+
+.title{
+    width: 95%;
+    color: white;
+   display: flex;
+   justify-content: center;
+    
+}
+.title h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+
+}
+.text-wid{
+    width: 50vw;
+    text-align: center;
+}
+
+/* banner end */
+
+.habit{
+    width: 20vw;
+    height: 300px;
+    
+}
+.habit img{
+    width: 15vw;
+    height: 150px;
+    border-radius: 100px;
+
+}
+.habit h3{
+  font-size: 20px;
+  line-height: 0px;
+
+}
+.habit p{
+  font-size: 10px;
+
+}
+.habit-main{
+    margin: 20px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* end a habit section */
+
+
+
+.run{
+    width: 83vw;
+    height: 350px;
+    background: #ffffff28;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.run-text{
+    width: 300px;
+    text-align: left;
+
+}
+.run-text p{
+    font-size: 10px;
+    color: rgba(173, 173, 173, 0.651);
+}
+.run-text h2{
+    font-size: 35px;
+}
+.run-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.run-img img{
+
+    width: 50%; 
+    border-radius: 20px;
+      height: 300px;
+
+}
+.gallery-text{
+    text-align: left;
+    width: 500px;
+ 
+}
+  
+
+.gallery-pic{
+display:flex;
+justify-content: center;
+margin: 0%;
+padding: 0%;
+width: 100%;
+}
+
+.gallery-main{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+.gallery-1{
+
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+    height: 50px;
+    background: rgba(255, 0, 0, 0.377);
+
+  }
+  
+
+
+
+  .gallery-pic-1{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+   position: relative; background-image: url('./image/exercise1.jpg'); width: 20%; height: 210px; background-repeat: no-repeat; background-size: cover; 
+
+
+
+  }
+  .gallery-pic-2{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    position: relative; background-image: url('./image/exercise2.png'); width: 40%; height: 210px; background-repeat: no-repeat; background-size: cover; 
+
+
+
+  }
+  .gallery-pic-3{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative; background-image: url('./image/exercise3.png'); width: 30%; height: 210px; background-repeat: no-repeat; background-size: cover; 
+
+
+
+  }
+  .gallery-pic-4{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative; background-image: url('./image/exercise4.png'); width: 40%; height: 210px; background-repeat: no-repeat; background-size: cover; 
+
+
+
+  }
+  .gallery-pic-5{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative; background-image: url('./image/exercise5.jpg'); width: 30%; height: 210px; background-repeat: no-repeat; background-size: cover; 
+
+
+
+  }
+  .gallery-pic-6{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative; background-image: url('./image/exercise6.jpg'); width: 20%; height: 210px; background-repeat: no-repeat; background-size: cover; 
+
+
+
+  }
+/* BMI section */
+
+
+.from{
+    width: 50%;
+    height: auto;
+ 
+}
+.calculator{
+    width: 50%;
+    height: auto;
+}
+
+
+.bmi-chart{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+table, td, th {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: rgba(82, 81, 79, 0.747);
+  }
+
+  .chus{
+    width: 45%;
+}
+
+
+  .chuss{
+    width: 90%;
+}
+
+
+
+
+  @media screen and (max-width: 600px) {
+
+    /* header and banner start */
+
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.nav{
+display:none;
+color: aliceblue;
+
+
+
+}
+
+
+.banner-img{
+    width: 95%;
+    height: 550px;
+}
+.banner{
+    display: block;
+}
+.banner-text h1{
+    font-size: 38px;
+
+}
+.banner-text{
+    width: 98%;
+    height: 350px;
+}
+.banner-img{
+    width: 98%;
+    height: 400px;
+}
+
+.banner-img img{
+    width: 98%;
+    height: 400px;
+}
+#mat{
+padding: 10px 25px;
+display: block;
+}
+
+
+
+/* header and banner end */
+
+.text-wid{
+    width: 98%;
+    text-align: center;
+    padding: 10px;
+}
+.habit-main{
+
+    display:grid;
+   
+margin: auto;
+  
+}
+
+
+
+
+.habit{
+    width: 200px;
+    height: 300px;
+    
+}
+.habit img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+}
+
+
+/* end a habit section */
+
+.run{
+    width: 98%;
+    height: auto;
+    background: #ffffff28;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+ text-align: center;
+ padding: 0%;
+ margin: 0%;
+
+ 
+
+}
+.run-img{
+margin-top: 20px;
+width: 95%;
+}
+
+
+.run-img img{
+
+    width: 95%; 
+    border-radius: 20px;
+      height: 300px;
+
+}
+
+.run-text{
+    width: 100%;
+    text-align:center;
+
+}
+
+
+/* start a gallery */
+.gallery-text{
+    text-align: left;
+    width: 80%;
+    margin: 0px;
+ 
+
+   
+}
+
+
+.gallery-pic{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+    gap: none;
+   
+    }
+
+
+    .gallery-pic-1{
+        width: 100%;
+    }
+    .gallery-pic-2{
+        width: 100%;
+    }
+    .gallery-pic-3{
+        width: 100%;
+    }
+    .gallery-pic-4{
+        width: 100%;
+    }
+    .gallery-pic-5{
+        width: 100%;
+    }
+    .gallery-pic-6{
+        width: 100%;
+    }
+/* BMI Section */
+
+ .bmi-text{
+    width: 100%;
+ }
+
+.from{
+    width: 100%;
+    height: auto;
+ 
+}
+
+.calculator{
+    
+    width: 100%;
+    height: auto;
+}
+
+
+.bmi-chart{
+    display: block;
+
+  
+}
+
+.BMI-main{
+  
+}
+
+.chus{
+    width: 100%;
+}
+.chuss{
+    width: 100%;
+}
+
+
+
+.in-chus{
+    width: 90%;
+}
+
+
+  }
